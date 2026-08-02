@@ -72,7 +72,7 @@ COMRADE is engineered to adapt its security layer based on the host Operating Sy
 # 🛠️ COMRADE :: Operational Command Cheat Sheet
  clone the Repo :
  ```text
- git clone https://github.com/zfln-rehan0520/COMRADE.git
+ git clone https://github.com/lybernet-labs/COMRADE.git
  ```
 ---
 
