@@ -14,7 +14,7 @@
 =====================================================================================
 ```
 
-  ![Version](https://img.shields.io/badge/version-1.10-ff8c00?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/version-1.20-ff8c00?style=for-the-badge)
   ![License](https://img.shields.io/badge/license-Apache--2.0-white?style=for-the-badge)
   ![Python](https://img.shields.io/badge/python-3.12+-blue?style=for-the-badge&logo=python)
   ![Security](https://img.shields.io/badge/encryption-AES--256--GCM-00ffff?style=for-the-badge)
