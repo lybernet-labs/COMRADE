@@ -1,0 +1,24 @@
+def extract_file(vault_filename, password, output_folder="."):
+    """Decrypts a file from the vault and saves it to the output folder."""
+    vault_path = os.path.join(VAULT_DIR, vault_filename)
+    manifest = load_manifest()
+    
+    if vault_filename not in manifest:
+        raise Exception("File not found in manifest.")
+
+    original_name = manifest[vault_filename]
+    
+    with open(vault_path, 'rb') as f:
+        # Read the 16-byte salt first
+        salt = f.read(16)
+        # The rest is the encrypted data (which includes the 12-byte nonce)
+        encrypted_content = f.read()
+
+    # Decrypt using our engine
+    decrypted_data = decrypt_data(encrypted_content, password, salt)
+    
+    output_path = os.path.join(output_folder, original_name)
+    with open(output_path, 'wb') as f:
+        f.write(decrypted_data)
+        
+    return output_path

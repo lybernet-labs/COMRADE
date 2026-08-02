@@ -1,0 +1,16 @@
+venv/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+vault/
+*.vault
+.vault_manifest
+
+.vscode/
+.idea/
+
+Thumbs.db
+Desktop.ini

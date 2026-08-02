@@ -1,0 +1,8 @@
+cryptography>=42.0.0
+maskpass>=0.3.7
+customtkinter>=5.2.0
+pillow>=10.0.0
+rich>=13.0.0
+colorama>=0.4.6
+ollama>=0.1.0
+pytest>=8.0.0

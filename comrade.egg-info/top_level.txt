@@ -1,0 +1,11 @@
+ai
+api
+bin
+cli
+core
+main
+network
+test
+ui
+vault
+venv

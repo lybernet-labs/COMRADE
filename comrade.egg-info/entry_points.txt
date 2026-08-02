@@ -1,0 +1,2 @@
+[console_scripts]
+comrade = main:main
